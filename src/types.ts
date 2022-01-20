@@ -58,6 +58,7 @@ export interface CarouselProps {
   focusOnSelect?: boolean;
   additionalTransfrom?: number; // this is only used if you want to add additional transfrom to the current transform
   pauseOnHover?: boolean;
+  itemsIndent?: number;
 }
 
 export type StateCallBack = CarouselInternalState;
